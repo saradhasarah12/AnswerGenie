@@ -5,14 +5,14 @@ from transformers import pipeline, AutoTokenizer
 def set_page_layout():
     st.markdown(
         """
-         <style>
+        <style>
         body {
             background-color: #F0F0F0; /* Light gray */
-            color: #333A56; /* Dark blue text */
+            color: #414141; /* Dark gray text for contrast */
         }
         .stTextInput, .stTextArea {
             background-color: #333A56; /* Dark blue */
-            color: white; /* White text */
+            color: #F0F0F0; /* White text for better visibility */
             border: 1px solid #ccc;
             border-radius: 5px;
             padding: 8px;
@@ -27,6 +27,7 @@ def set_page_layout():
         }
         .stButton:hover {
             background-color: #50877D; /* Darker shade of blue on hover */
+            color: #F0F0F0; /* Light gray text on hover */
         }
         </style>
         """,
