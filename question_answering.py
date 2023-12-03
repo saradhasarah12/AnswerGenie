@@ -5,27 +5,28 @@ from transformers import pipeline, AutoTokenizer
 def set_page_layout():
     st.markdown(
         """
-        <style>
+         <style>
         body {
-            background-color: #37306B;
-            color: #414141;
+            background-color: #F0F0F0; /* Light gray */
+            color: #333A56; /* Dark blue text */
         }
         .stTextInput, .stTextArea {
-            background-color: #66347F;
+            background-color: #333A56; /* Dark blue */
+            color: white; /* White text */
             border: 1px solid #ccc;
             border-radius: 5px;
             padding: 8px;
             box-shadow: none;
         }
         .stButton {
-            color: #66347F;
-            background-color: #CA3E47;
+            color: #F0F0F0; /* Light gray text */
+            background-color: #70A9A1; /* Light blue button */
             border-radius: 5px;
             padding: 8px 16px;
             font-weight: bold;
         }
         .stButton:hover {
-            background-color: #ff504d;
+            background-color: #50877D; /* Darker shade of blue on hover */
         }
         </style>
         """,
