@@ -7,27 +7,27 @@ def set_page_layout():
         """
         <style>
         body {
-            background-color: #F0F0F0; /* Light gray */
-            color: #414141; /* Dark gray text for contrast */
+            background-color: #D9D9D9; /* App background */
+            color: #1F4172; /* Text color */
         }
         .stTextInput, .stTextArea {
-            background-color: #333A56; /* Dark blue */
-            color: #F0F0F0; /* White text for better visibility */
+            background-color: #FDF0F0; /* Input background */
+            color: #132043; /* Input text color */
             border: 1px solid #ccc;
             border-radius: 5px;
             padding: 8px;
             box-shadow: none;
         }
         .stButton {
-            color: #F0F0F0; /* Light gray text */
-            background-color: #70A9A1; /* Light blue button */
+            color: #1F4172; /* Button text color */
+            background-color: #D9D9D9; /* Button background */
             border-radius: 5px;
             padding: 8px 16px;
             font-weight: bold;
         }
         .stButton:hover {
-            background-color: #50877D; /* Darker shade of blue on hover */
-            color: #F0F0F0; /* Light gray text on hover */
+            background-color: #1F4172; /* Hover background */
+            color: #FFFFFF; /* Hover text color */
         }
         </style>
         """,
